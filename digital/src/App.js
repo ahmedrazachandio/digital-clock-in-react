@@ -21,7 +21,7 @@ function App() {
 
         <h1 className="time">{time}</h1>
       </div>
-      <a href="https://mythrillfiction.com/" target="_blank">Mythrill</a>
+      <a href="https://ahmedrazachandio.github.io/" target="_blank">Ahmed Raza</a>
     </div>
   );
 }
