@@ -8,6 +8,7 @@ function App() {
   const UpdateTime = () => {
     time = new Date().toLocaleTimeString();
   }
+  setInterval(UpdateTime, 1000);
 
   return (
     <div className="App">
