@@ -22,6 +22,41 @@
   border-radius: 22px;
 }
  */
+ body {
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* align-items: center; */
+  background: #212534;
+  margin: 0;
+  padding: 0;
+  /* height: 90vh;
+  width: 100vw; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+
+  /* flex-direction: column; */
+  /* padding-top: 2rem; */
+  /* padding-bottom: 2rem; */
+  /* box-sizing: border-box; */
+}
+
+
+
+ .App{
+   width: 100vw; 
+  height: 100vh;
+  /* border: 2px solid white; */
+}
+
+.container{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @property --rotate {
   syntax: "<angle>";
@@ -35,22 +70,12 @@
 }
 
 
-body {
-  min-height: 100vh;
-  background: #212534;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  box-sizing: border-box;
-}
-
 
 .card {
   background: #191c29;
   /* width: var(--card-width); */
-  width: 100%;
+  width: 35%;
+  
   /* height: var(--card-height); */
   padding: 20px;
   position: relative;
@@ -121,11 +146,20 @@ body {
 }
 
 a {
-  color: #212534;
+  color: rgb(88 199 250 / 100%);
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
-  margin-top: auto !important;
-  position: relative;
+ 
   
+}
+.footer{
+  /* border: 2px solid white; */
+  height: 10%;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+  /* width: 100%; */
+  /* margin-top: 300px; */
+  /* top: 10px; */
 }
