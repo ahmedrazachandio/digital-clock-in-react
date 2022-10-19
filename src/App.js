@@ -2,6 +2,9 @@
 
 import React, { useState } from "react";
 import "./App.css";
+import { FaBeer } from 'react-icons/fa';
+import { BsGithub } from 'react-icons/bs';
+
 
 function App() {
   let time = new Date().toLocaleTimeString();
@@ -27,6 +30,13 @@ function App() {
         <a href="https://ahmedrazachandio.github.io/" target="_blank">
           Powered and Developed By Ahmed Raza
         </a>
+        <div>
+          <FaBeer />
+          <BsGithub className="icons" />
+          {/* https://react-icons.github.io/react-icons/search */}
+
+          {/* https://codepen.io/RamiAlmofleh/pen/KKorLRy */}
+        </div>  
       </div>
     </div>
   );
